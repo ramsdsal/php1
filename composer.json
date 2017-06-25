@@ -1,0 +1,32 @@
+{
+    "name": "ramdsal/hvmp",
+    "type": "library",
+    "description": "exercicio test",
+    "keywords": ["PHP","MySQL"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beto Horta",
+            "email": "betohorta@gmail.com",
+            "homepage": "http://www.betohorta.co.uk",
+            "role": "Developer"
+        },
+        {
+            "name": "Ramiro Delgado",
+            "email": "ramsdsal@hotmail.com",
+            "homepage": "http://www.betohorta.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "HVMP\\": "src"
+        }
+    }
+}
